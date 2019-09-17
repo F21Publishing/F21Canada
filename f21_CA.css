@@ -1,11 +1,13 @@
 /*
-  * Forever21 CA v1.1.1 4/18/2018 - Version 2
+  * Forever21 CA v1.1.1 09/05/2019 - Version 2
   * Copyright Forever21
-  * Created by Test
+  * Created by Elisha Lee
+  * Updated by Eve Chen
 */
 /*#taco *,#taco body,#taco button,#taco a {
   cursor: url("/ca/shop/_common/images/TacoCursor.cur"), auto !important;
 }*/
+/* Font changed 09/05/2019 Removed by Eve
 @font-face{
   font-family:"Trade Gothic W01 BoldCn_20";
   src:url("/ca/shop/_common/images/fonts/tradegothic/257c802f-349c-4b4d-aefa-546d5de15ec6.eot");
@@ -61,20 +63,35 @@
   font-weight: 400;
   font-style: normal;
 }
+/* Font changed 08/15/2019 Changed by Eve */
 .t_trade {
-  font-family: "Trade Gothic W01 BoldCn_20",Arial,Helvetica,sans-serif;
+  font-family: "Barlow Condensed",Arial,Helvetica,sans-serif;
+  font-weight: 600
 }
-
 .t_futura {
-  font-family:"Futura W05_n2",Helvetica,Arial,sans-serif;
+  font-family: "Source Sans Pro",Helvetica,Arial,sans-serif
 }
 .t_futura_light {
-  font-family:"Futura W05",Helvetica,Arial,sans-serif;
+  font-family: "Source Sans Pro",Helvetica,Arial,sans-serif
 }
 .t_futura_bold {
-  font-family: "Futura W05_n5",Helvetica,Arial,sans-serif;
-  font-weight: 900;
+    font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
+    font-weight: 700
 }
+
+/* Font changed 09/05/2019 Added by Eve */
+.t_barlow {
+    font-family: "Barlow Condensed",Arial,Helvetica,sans-serif;
+    font-weight: 600
+}
+.t_source {
+    font-family: "Source Sans Pro",Helvetica,Arial,sans-serif
+}
+.t_source_bold {
+    font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
+    font-weight: 700
+}
+
 /* ============================== */
 /* Loading Code                   */
 /*================================*/
